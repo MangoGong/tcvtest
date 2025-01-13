@@ -1,0 +1,30 @@
+set_politics = {
+	ruling_party = SOC_democratic
+	last_election = "1932.5.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = { #This MUST add up to 100 otherwise the ideologies break
+    socialism = 9
+	fascism = 9
+	communism = 9
+    liberalism = 9
+    SOC_democratic = 9
+    ECO_democratic = 9
+    CON_democratic = 9
+    AUT_democratic = 9
+    absolutism = 9
+    special = 9
+    antinism = 10
+}
+
+create_country_leader = {
+	name = "MangoGong"
+	desc = "我爱莫斯莉"
+	picture = "TCV_testing_leader.dds"
+	expire = "1965.1.1"
+	ideology = socialdemocratic
+	traits = {
+		stout_defender
+	}
+}
