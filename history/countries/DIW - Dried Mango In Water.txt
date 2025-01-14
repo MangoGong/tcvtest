@@ -1,3 +1,5 @@
+capital = 337
+
 set_politics = {
 	ruling_party = SOC_democratic
 	last_election = "1932.5.1"
@@ -20,10 +22,10 @@ set_popularities = { #This MUST add up to 100 otherwise the ideologies break
 
 create_country_leader = {
 	name = "MangoGong"
-	desc = "我爱莫斯莉"
+	desc = "I love Mosley"
 	picture = "TCV_testing_leader.dds"
 	expire = "1965.1.1"
-	ideology = socialdemocratic
+	ideology = "socialdemocratic"
 	traits = {
 		stout_defender
 	}

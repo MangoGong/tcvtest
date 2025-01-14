@@ -1,0 +1,10 @@
+﻿l_simp_chinese:
+ WHILE_FOCUSING: "执行该国策将产生以下效果：\n$EFF$"
+ generic_focus: "国策"
+ TREE_FILTER_TOGGLE: "§G点击§!开关，显示更多筛选项"
+ confirm_cancel_national_focus: "取消国策"
+ confirm_cancel_national_focus_progress_loss_singular: "你将会失去§R$LOST_DAYS$§!日进度。"
+ confirm_cancel_national_focus_progress_loss_plural: "你将会失去§R$LOST_DAYS$§!日进度。"
+ confirm_cancel_national_focus_desc: "你确定要取消§H$FOCUS_NAME$§!国策吗？"
+ ### AH GENERIC FOCUSES ###
+ FOCUS_SHORTCUT_TOOLTIP: "§G左键点击§!移动至$PATH|H$路线。"
