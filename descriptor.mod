@@ -5,3 +5,4 @@ tags={
 name="tcvtest"
 supported_version="1.15.3"
 replace_path="common/ideologies/00_ideologies.txt"
+replace_path="common/national_focus"

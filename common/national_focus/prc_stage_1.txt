@@ -1,0 +1,484 @@
+focus_tree = {
+	id = prc_stage_1
+	country = {
+		factor = 0
+		modifier = {
+			add = 20
+			tag = PRC
+		}
+	}
+	default = no
+	focus = {
+		id = final_stage_of_antibandit_work
+		text = final_stage_of_antibandit_work
+		icon = GFX_goal_unknown
+		cost = 3.00
+		x = 7
+		y = 0
+
+	}
+	focus = {
+		id = stablize_base
+		text = stablize_base
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = final_stage_of_antibandit_work
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = long_long_night
+		text = long_long_night
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = stablize_base
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = waving_our_flag
+		text = waving_our_flag
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = long_long_night
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = people_reedu_movement
+		text = people_reedu_movement
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = waving_our_flag
+		}
+		x = 0
+		y = 4
+
+	}
+	focus = {
+		id = organize_literacy
+		text = organize_literacy
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = people_reedu_movement
+		}
+		x = 0
+		y = 5
+
+	}
+	focus = {
+		id = people_qualification_commitee
+		text = people_qualification_commitee
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = waving_our_flag
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = democratic_commune
+		text = democratic_commune
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = people_qualification_commitee
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = listen_peoples_voice
+		text = listen_peoples_voice
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = organize_literacy
+		}
+		prerequisite = {
+			focus = democratic_commune
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = the_sparks
+		text = the_sparks
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = stablize_base
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = training_red_army
+		text = training_red_army
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = the_sparks
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = regime_from_gun
+		text = regime_from_gun
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = training_red_army
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = base_commue_army
+		text = base_commue_army
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = regime_from_gun
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = recive_international_weapon
+		text = recive_international_weapon
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = training_red_army
+		}
+		x = 6
+		y = 4
+
+	}
+	focus = {
+		id = reaffirming_discipline
+		text = reaffirming_discipline
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = recive_international_weapon
+		}
+		x = 6
+		y = 5
+
+	}
+	focus = {
+		id = continunation_of_ra
+		text = continunation_of_ra
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = base_commue_army
+		}
+		prerequisite = {
+			focus = reaffirming_discipline
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = desert_smoke
+		text = desert_smoke
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = stablize_base
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = resuming_production
+		text = resuming_production
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = desert_smoke
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = reclamate_wasteland
+		text = reclamate_wasteland
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = resuming_production
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = food_production_race
+		text = food_production_race
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = reclamate_wasteland
+		}
+		x = 8
+		y = 5
+
+	}
+	focus = {
+		id = fight_the_tyrant
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = resuming_production
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = estab_food_management_comm
+		text = estab_food_management_comm
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = fight_the_tyrant
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = implementing_rigorous_production
+		text = implementing_rigorous_production
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = food_production_race
+		}
+		prerequisite = {
+			focus = estab_food_management_comm
+		}
+		x = 9
+		y = 6
+
+	}
+	focus = {
+		id = old_friends_in_yangguan
+		text = old_friends_in_yangguan
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = stablize_base
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = aim_our_enemy
+		text = aim_our_enemy
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = old_friends_in_yangguan
+		}
+		x = 13
+		y = 3
+
+	}
+	focus = {
+		id = conflict_with_mogolia
+		text = conflict_with_mogolia
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = aim_our_enemy
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = contact_with_shengshicai
+		text = contact_with_shengshicai
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = conflict_with_mogolia
+		}
+		x = 13
+		y = 5
+
+	}
+	focus = {
+		id = ns_xinjiang_negotiation
+		text = ns_xinjiang_negotiation
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = contact_with_shengshicai
+		}
+		x = 13
+		y = 6
+
+	}
+	focus = {
+		id = negotiation_break
+		text = negotiation_break
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ns_xinjiang_negotiation
+		}
+		mutually_exclusive = {
+			focus = dihua_reconciliation
+			focus = negotiation_stalemate
+		}
+		x = 11
+		y = 7
+
+	}
+	focus = {
+		id = dihua_reconciliation
+		text = dihua_reconciliation
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ns_xinjiang_negotiation
+		}
+		mutually_exclusive = {
+			focus = negotiation_break
+			focus = negotiation_stalemate
+		}
+		x = 13
+		y = 7
+
+	}
+	focus = {
+		id = ns_xinjiang_merger_matters
+		text = ns_xinjiang_merger_matters
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = dihua_reconciliation
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = trans_power_peacefully
+		text = trans_power_peacefully
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = ns_xinjiang_merger_matters
+		}
+		x = 13
+		y = 9
+
+	}
+	focus = {
+		id = negotiation_stalemate
+		text = negotiation_stalemate
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ns_xinjiang_negotiation
+		}
+		mutually_exclusive = {
+			focus = dihua_reconciliation
+			focus = negotiation_break
+		}
+		x = 15
+		y = 7
+
+	}
+	focus = {
+		id = plan_dihua_chaos
+		text = plan_dihua_chaos
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = negotiation_break
+		}
+		x = 11
+		y = 8
+
+	}
+	focus = {
+		id = highest_level_emg_meeting
+		text = highest_level_emg_meeting
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = negotiation_stalemate
+		}
+		x = 15
+		y = 8
+
+	}
+	focus = {
+		id = going_to_south
+		text = going_to_south
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = plan_dihua_chaos
+		}
+		x = 11
+		y = 9
+
+	}
+	focus = {
+		id = final_judgement
+		icon = GFX_goal_unknown
+		cost = 3.00
+		prerequisite = {
+			focus = highest_level_emg_meeting
+		}
+		x = 15
+		y = 9
+
+	}
+	focus = {
+		id = stablize_xinjiang_base
+		text = stablize_xinjiang_base
+		icon = GFX_goal_unknown
+		cost = 5.00
+		prerequisite = {
+			focus = going_to_south
+			focus = trans_power_peacefully
+		}
+		x = 12
+		y = 10
+
+	}
+}
