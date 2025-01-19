@@ -57,7 +57,10 @@ set_popularities = {
 }
 
 add_ideas = {
-
+	army_at_collapsing_edge
+	collapsing_economy
+	confused_target
+	faith_left_only
 }
 
 add_opinion_modifier = { target = CHI modifier = hostile_status }

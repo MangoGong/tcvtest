@@ -1,0 +1,4 @@
+#PRC
+daily_political_power_gain = {
+	political_power_gain = 0.1
+}

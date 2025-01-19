@@ -1,0 +1,19 @@
+characters={
+	Zhouenlai{
+		name = zhouenlai
+		advisor={
+			slot = political_advisor
+			idea_token = PRC_zhou_enlai
+			allowed = {
+				original_tag = PRC
+			}
+			traits = {
+				silent_workhorse
+			}
+			cost = 150
+			ai_will_do = {
+				factor = 1.000
+			}
+		}
+	}
+}

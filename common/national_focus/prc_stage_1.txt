@@ -13,6 +13,9 @@ focus_tree = {
 		text = final_stage_of_antibandit_work
 		icon = GFX_goal_unknown
 		cost = 3.00
+		completion_reward = {
+			add_political_power = 80
+		}
 		x = 7
 		y = 0
 
@@ -24,6 +27,9 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = final_stage_of_antibandit_work
+		}
+		completion_reward = {
+			add_political_power = 70
 		}
 		x = 7
 		y = 1
@@ -37,6 +43,11 @@ focus_tree = {
 		prerequisite = {
 			focus = stablize_base
 		}
+		completion_reward = {
+			add_political_power = 35
+			add_manpower = 10000
+			add_ideas = long_long_night_idea
+		}
 		x = 1
 		y = 2
 
@@ -48,6 +59,10 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = long_long_night
+		}
+		completion_reward = {
+			add_political_power = 20
+			#解锁周恩来，未实现
 		}
 		x = 1
 		y = 3
@@ -61,6 +76,15 @@ focus_tree = {
 		prerequisite = {
 			focus = waving_our_flag
 		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = reedu_movement
+				days = 180
+			}
+			add_stability = 0.1
+			#增加每日稳定度
+
+		}
 		x = 0
 		y = 4
 
@@ -72,6 +96,10 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = people_reedu_movement
+		}
+		completion_reward = {
+			add_research_slot = 1
+			#增加研究速度
 		}
 		x = 0
 		y = 5
@@ -85,6 +113,9 @@ focus_tree = {
 		prerequisite = {
 			focus = waving_our_flag
 		}
+		completion_reward = {
+			 #触发事件
+		}
 		x = 2
 		y = 4
 
@@ -97,10 +128,15 @@ focus_tree = {
 		prerequisite = {
 			focus = people_qualification_commitee
 		}
+		completion_reward = {
+			add_ideas = democratic_commune_idea
+			add_political_power = 70
+		}
 		x = 2
 		y = 5
-
 	}
+
+
 	focus = {
 		id = listen_peoples_voice
 		text = listen_peoples_voice
@@ -111,6 +147,10 @@ focus_tree = {
 		}
 		prerequisite = {
 			focus = democratic_commune
+		}
+		completion_reward = {
+			add_political_power = 100
+			#增加投降界限增加
 		}
 		x = 1
 		y = 6
@@ -123,6 +163,9 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = stablize_base
+		}
+		completion_reward = {
+			#
 		}
 		x = 5
 		y = 2
@@ -358,7 +401,7 @@ focus_tree = {
 			focus = ns_xinjiang_negotiation
 		}
 		mutually_exclusive = {
-			focus = dihua_reconciliation
+			focus = urumqi_reconciliation
 			focus = negotiation_stalemate
 		}
 		x = 11
@@ -366,8 +409,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = dihua_reconciliation
-		text = dihua_reconciliation
+		id = urumqi_reconciliation
+		text = urumqi_reconciliation
 		icon = GFX_goal_unknown
 		cost = 0.00
 		prerequisite = {
@@ -387,7 +430,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
-			focus = dihua_reconciliation
+			focus = urumqi_reconciliation
 		}
 		x = 13
 		y = 8
@@ -414,7 +457,7 @@ focus_tree = {
 			focus = ns_xinjiang_negotiation
 		}
 		mutually_exclusive = {
-			focus = dihua_reconciliation
+			focus = urumqi_reconciliation
 			focus = negotiation_break
 		}
 		x = 15
@@ -422,8 +465,8 @@ focus_tree = {
 
 	}
 	focus = {
-		id = plan_dihua_chaos
-		text = plan_dihua_chaos
+		id = plan_kashi_chaos
+		text = plan_kashi_chaos
 		icon = GFX_goal_unknown
 		cost = 5.00
 		prerequisite = {
@@ -451,7 +494,7 @@ focus_tree = {
 		icon = GFX_goal_unknown
 		cost = 3.00
 		prerequisite = {
-			focus = plan_dihua_chaos
+			focus = plan_kashi_chaos
 		}
 		x = 11
 		y = 9
