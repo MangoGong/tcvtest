@@ -1,0 +1,5 @@
+opinion_modifiers = {
+	relation_to_shengshicai = {
+		value = 15
+	}
+}

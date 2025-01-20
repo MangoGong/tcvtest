@@ -151,6 +151,7 @@ focus_tree = {
 		completion_reward = {
 			add_political_power = 100
 			#增加投降界限增加
+			add_ideas = listen_peoples_voice_idea
 		}
 		x = 1
 		y = 6
@@ -179,6 +180,10 @@ focus_tree = {
 		prerequisite = {
 			focus = the_sparks
 		}
+		completion_reward = {
+			add_war_support = 0.1
+			add_ideas = regroup_idea
+		}
 		x = 5
 		y = 3
 
@@ -190,6 +195,17 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = training_red_army
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = production_at_all_costs
+				days = 720
+			}
+			add_offsite_building = {
+				type = arms_factory
+				level = 2
+			}
+			add_ideas = regime_from_gun_effect
 		}
 		x = 4
 		y = 4
@@ -203,6 +219,9 @@ focus_tree = {
 		prerequisite = {
 			focus = regime_from_gun
 		}
+		completion_reward = {
+			add_ideas = base_commue_army_idea
+		}
 		x = 4
 		y = 5
 
@@ -215,6 +234,16 @@ focus_tree = {
 		prerequisite = {
 			focus = training_red_army
 		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 3000
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment
+				amount = 150
+			}
+		}
 		x = 6
 		y = 4
 
@@ -226,6 +255,9 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = recive_international_weapon
+		}
+		completion_reward = {
+			add_ideas = abide_by_discipline
 		}
 		x = 6
 		y = 5
@@ -242,6 +274,9 @@ focus_tree = {
 		prerequisite = {
 			focus = reaffirming_discipline
 		}
+		completion_reward = {
+			#修正国家精神
+		}
 		x = 5
 		y = 6
 
@@ -253,6 +288,9 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = stablize_base
+		}
+		completion_reward = {
+			#待地图完成
 		}
 		x = 9
 		y = 2
@@ -266,6 +304,9 @@ focus_tree = {
 		prerequisite = {
 			focus = desert_smoke
 		}
+		completion_reward = {
+			add_ideas = resuming_production_idea
+		}
 		x = 9
 		y = 3
 
@@ -277,6 +318,9 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = resuming_production
+		}
+		completion_reward = {
+			add_ideas = reclamate_movement
 		}
 		x = 8
 		y = 4
@@ -290,6 +334,12 @@ focus_tree = {
 		prerequisite = {
 			focus = reclamate_wasteland
 		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = production_boom
+				days = 720
+			}
+		}
 		x = 8
 		y = 5
 
@@ -300,6 +350,9 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = resuming_production
+		}
+		completion_reward = {
+			add_ideas = fight_the_tyrant_idea
 		}
 		x = 10
 		y = 4
@@ -312,6 +365,9 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = fight_the_tyrant
+		}
+		completion_reward = {
+			add_ideas = estab_food_management_comm_idea
 		}
 		x = 10
 		y = 5
@@ -328,6 +384,9 @@ focus_tree = {
 		prerequisite = {
 			focus = estab_food_management_comm
 		}
+		completion_reward = {
+			#修正国家精神
+		}
 		x = 9
 		y = 6
 
@@ -339,6 +398,9 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = stablize_base
+		}
+		completion_reward = {
+			add_ideas = homesick_people
 		}
 		x = 13
 		y = 2
@@ -352,6 +414,9 @@ focus_tree = {
 		prerequisite = {
 			focus = old_friends_in_yangguan
 		}
+		completion_reward = {
+			add_political_power = 35
+		}
 		x = 13
 		y = 3
 
@@ -363,6 +428,9 @@ focus_tree = {
 		cost = 5.00
 		prerequisite = {
 			focus = aim_our_enemy
+		}
+		completion_reward = {
+			#决议待写
 		}
 		x = 13
 		y = 4
@@ -376,9 +444,32 @@ focus_tree = {
 		prerequisite = {
 			focus = conflict_with_mogolia
 		}
+		completion_reward = {
+			SIK = {
+				add_opinion_modifier = {
+					target = root
+					modifier = relation_to_shengshicai
+				}
+			}
+			root = {
+				add_opinion_modifier = {
+					target = SIK
+					modifier = relation_to_shengshicai
+				}
+			}
+		}
 		x = 13
 		y = 5
 
+#		Yb        dP    db    88 888888 88 88b 88  dP""b8     888888  dP"Yb  88""Yb    
+#		Yb  db  dP    dPYb   88   88   88 88Yb88 dP   `"     88__   dP   Yb 88__dP    
+#		 YbdPYbdP    dP__Yb  88   88   88 88 Y88 Yb  "88     88""   Yb   dP 88"Yb     
+#		  YP  YP    dP""""Yb 88   88   88 88  Y8  YboodP     88      YbodP  88  Yb    
+#		   8b    d8    db    88""Yb     88   88 88""Yb 8888b.     db    888888 888888 
+#		   88b  d88   dPYb   88__dP     88   88 88__dP  8I  Yb   dPYb     88   88__   
+#		   88YbdP88  dP__Yb  88"""      Y8   8P 88"""   8I  dY  dP__Yb    88   88""   
+#		   88 YY 88 dP""""Yb 88         `YbodP' 88     8888Y"  dP""""Yb   88   888888 
+		
 	}
 	focus = {
 		id = ns_xinjiang_negotiation
@@ -387,6 +478,9 @@ focus_tree = {
 		cost = 3.00
 		prerequisite = {
 			focus = contact_with_shengshicai
+		}
+		completion_reward = {
+			
 		}
 		x = 13
 		y = 6
@@ -495,6 +589,9 @@ focus_tree = {
 		cost = 3.00
 		prerequisite = {
 			focus = plan_kashi_chaos
+		}
+		completion_reward = {
+			add_ideas = war_with_shengshicai
 		}
 		x = 11
 		y = 9

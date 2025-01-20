@@ -46,5 +46,110 @@ ideas = {
 				political_advisor_cost_factor = -0.25
 			}
 		}
+		production_at_all_costs = {
+			modifier = {
+				industrial_capacity_factory = 0.08
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.1
+				}
+			}
+		}
+		listen_peoples_voice_idea = {
+			modifier = {
+				political_power_gain = 0.25
+			}
+		}
+		regroup_idea = {
+			modifier = {
+				planning_speed = -0.1
+				army_attack_factor = 0.1
+			}
+		}
+		base_commue_army_idea = {
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				weekly_manpower = 2000
+				army_attack_factor = 0.1
+			}
+		}
+		abide_by_discipline = {
+			modifier = {
+				planning_speed = -0.1
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+			#受伤概率-10%
+		}
+		resuming_production_idea = {
+			modifier = {
+				industrial_capacity_factory = 0.08
+				production_speed_buildings_factor = 0.1
+				line_change_production_efficiency_factor = 0.15
+			}
+		}
+		reclamate_movement = {
+			modifier = {
+				local_resources_factor = 0.25
+				production_speed_buildings_factor = 0.08
+				#乌鲁木齐的修正，待地图完成
+			}
+		}
+		production_boom = {
+			modifier = {
+				local_resources_factor = 0.1
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.08
+			}
+		}
+		fight_the_tyrant_idea = {
+			modifier = {
+				consumer_goods_factor = -0.08
+				war_support_factor = 0.05
+				stability_factor = 0.05
+			}
+		}
+		estab_food_management_comm_idea = {
+			modifier = {
+				monthly_population = 0.25
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+		homesick_people = {
+			modifier = {
+				stability_factor = 0.05
+				resistance_target = -0.2
+				compliance_growth = 0.05
+			}
+		}
+		conflict_in_initiative = {
+			modifier = {
+				army_attack_factor = 0.15
+				army_defence_factor = 0.1
+			}
+		}
+	}
+	hidden_ideas = {
+		regime_from_gun_effect = {
+			modifier = {
+				army_core_attack_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		add_surrender_limit_hidden = {
+			modifier = {
+				surrender_limit = 0.1
+			}
+		}
+		war_with_shengshicai = {
+			modifier = {
+				army_attack_factor = 0.15
+				breakthrough_factor = 0.1
+				non_core_manpower = 0.4
+			}
+		}
 	}
 }
