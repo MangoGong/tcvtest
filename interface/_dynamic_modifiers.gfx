@@ -1,0 +1,7 @@
+spriteTypes = {
+    spriteType = {
+		name = "GFX_tcv_event_test"
+		texturefile = "gfx/event_pictures/tcv_event_test.dds"
+	}
+
+}

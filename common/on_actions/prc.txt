@@ -1,0 +1,16 @@
+on_actions = {
+    on_startup = {
+        effect = { 
+            PRC = {
+                country_event = { 
+                    id = prc.1
+                    days = 1
+                }
+                country_event = { 
+                    id = prc.2
+                    days = 7
+                }
+            }
+        }
+    }
+}
