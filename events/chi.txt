@@ -228,178 +228,283 @@ country_event = {
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.19
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.19.t
+	desc = chi.19.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.19.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.20
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.20.t
+	desc = chi.20.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.20.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.21
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.21.t
+	desc = chi.21.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.21.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.22
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.22.t
+	desc = chi.22.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.22.a
+	}
+	option = { 
+		name = chi.22.b
+	}
+	option = { 
+		name = chi.22.c
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.23
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.23.t
+	desc = chi.23.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.23.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.24
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.24.t
+	desc = chi.24.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.24.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.25
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.25.t
+	desc = chi.25.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.25.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.26
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.26.t
+	desc = chi.26.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.26.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.27
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.27.t
+	desc = chi.27.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.27.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.28
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.28.t
+	desc = chi.28.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.28.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.29
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.29.t
+	desc = chi.29.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.29.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.30
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.30.t
+	desc = chi.30.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.30.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.31
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.31.t
+	desc = chi.31.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.31.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.32
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.32.t
+	desc = chi.32.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.32.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.33
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.33.t
+	desc = chi.33.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.33.a
 	}
 }
 country_event = {
-	id = chi.16
+	id = chi.34
 	picture = GFX_tcv_event_test
-	title = chi.16.t
-	desc = chi.16.desc
+	title = chi.34.t
+	desc = chi.34.desc
 	fire_only_once = yes
 	hidden = no
 	option = { 
-		name = chi.16.a
+		name = chi.34.a
+	}
+}
+country_event = {
+	id = chi.35
+	picture = GFX_tcv_event_test
+	title = chi.35.t
+	desc = chi.35.desc
+	fire_only_once = yes
+	hidden = no
+	option = { 
+		name = chi.35.a
+	}
+}
+country_event = {
+	id = chi.36
+	picture = GFX_tcv_event_test
+	title = chi.36.t
+	desc = chi.36.desc
+	fire_only_once = yes
+	hidden = no
+	option = { 
+		name = chi.36.a
+	}
+}
+country_event = {
+	id = chi.37
+	picture = GFX_tcv_event_test
+	title = chi.37.t
+	desc = chi.37.desc
+	fire_only_once = yes
+	hidden = no
+	option = { 
+		name = chi.37.a
+	}
+}
+country_event = {
+	id = chi.38
+	picture = GFX_tcv_event_test
+	title = chi.38.t
+	desc = chi.38.desc
+	fire_only_once = yes
+	hidden = no
+	option = { 
+		name = chi.38.a
+	}
+}
+country_event = {
+	id = chi.39
+	picture = GFX_tcv_event_test
+	title = chi.39.t
+	desc = chi.39.desc
+	fire_only_once = yes
+	hidden = no
+	option = { 
+		name = chi.39.a
+	}
+}
+country_event = {
+	id = chi.40
+	picture = GFX_tcv_event_test
+	title = chi.40.t
+	desc = chi.40.desc
+	fire_only_once = yes
+	hidden = no
+	option = { 
+		name = chi.40.a
+	}
+}
+country_event = {
+	id = chi.41
+	picture = GFX_tcv_event_test
+	title = chi.41.t
+	desc = chi.41.desc
+	fire_only_once = yes
+	hidden = no
+	option = { 
+		name = chi.41.a
+	}
+}
+country_event = {
+	id = chi.42
+	picture = GFX_tcv_event_test
+	title = chi.42.t
+	desc = chi.42.desc
+	fire_only_once = yes
+	hidden = no
+	option = { 
+		name = chi.42.a
+	}
+}
+country_event = {
+	id = chi.43
+	picture = GFX_tcv_event_test
+	title = chi.43.t
+	desc = chi.43.desc
+	fire_only_once = yes
+	hidden = no
+	option = { 
+		name = chi.43.a
 	}
 }
