@@ -62,8 +62,9 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 20
-			#解锁周恩来，未实现
+			#解锁周恩来，已完成
 		}
+		
 		x = 1
 		y = 3
 
@@ -82,7 +83,8 @@ focus_tree = {
 				days = 180
 			}
 			add_stability = 0.1
-			#增加每日稳定度
+			#增加每日稳定度 已完成
+			custom_effect_tooltip = people_reedu_movement_tt
 
 		}
 		x = 0
@@ -100,6 +102,7 @@ focus_tree = {
 		completion_reward = {
 			add_research_slot = 1
 			#增加研究速度
+			add_ideas = organize_literacy_idea
 		}
 		x = 0
 		y = 5
@@ -115,6 +118,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			 #触发事件
+		country_event = { id = prc.7 }	 
 		}
 		x = 2
 		y = 4
@@ -150,7 +154,7 @@ focus_tree = {
 		}
 		completion_reward = {
 			add_political_power = 100
-			#增加投降界限增加
+			#增加投降界限增加 已完成 放进了下面的民族精神
 			add_ideas = listen_peoples_voice_idea
 		}
 		x = 1
@@ -276,6 +280,10 @@ focus_tree = {
 		}
 		completion_reward = {
 			#修正国家精神
+			swap_ideas = {
+				remove_idea = army_at_collapsing_edge
+				add_idea = army_at_collapsing_edge2#你自己想名字去			
+			}
 		}
 		x = 5
 		y = 6

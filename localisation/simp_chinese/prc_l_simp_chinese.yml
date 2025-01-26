@@ -1,6 +1,7 @@
 ﻿l_simp_chinese:
  #民精
  army_at_collapsing_edge: "濒临崩溃的部队"
+ army_at_collapsing_edge2: "恢复中的红军"
  collapsing_economy: "摇摇欲坠的经济"
  confused_target: "混乱的目标"
  faith_left_only: "只余信念……"
@@ -12,11 +13,18 @@
  long_long_night: "漫漫长夜" 
  long_long_night_desc: "大西北的夜空看似和陕北没什么区别，璀璨星宿，点缀其间。但浪漫的游牧故事被漫漫黄沙所吞噬，昂扬的理想誓言被昼夜失温所埋葬。被赶出内地的我们宛如丧家之犬，在这片望不到尽头的黑夜中等待着自我消亡。"
  waving_our_flag: "挥舞我们的旗帜" 
+ waving_our_flag_tt: "可以任命顾问§Y周恩来"
  waving_our_flag_desc: "不论怎么讲，我们是红军，是充满力量的队伍，是满怀希望的队伍，是为了解放中国而激扬斗志的队伍，什么困难都打不倒我们。我们要深入到根据地的方方面面去，强化我们几近崩倾的自信力。人定胜天的道理我们不断地实践过......这一次也将一样。"
+
+
+
  people_reedu_movement: "民众再教育运动" 
  people_reedu_movement_desc: "人民群众的支持和理解是红军乃至革命星火存续的重要基础。他们对我们政策和思想理论的理解程度也直接影响到根据地的思想建设工作和新一批党干部的吸收。一次再教育运动将会让人民更为坚定地支持我们，也会让我们的力量更为强大。"
+ people_reedu_movement_tt: "每周增加§G0.1%§W稳定度"
  organize_literacy: "组织扫盲"  
  organize_literacy_desc: "中国的无产者在长期的压迫下，教育一直是可望而不可即。到现在，组成我们根据地的主要部分—广大农民和工人的识字率普遍低下。自当年开设工人夜校以来，我们就已知晓扫盲的重要性。发动根据地内的知识分子下乡开设扫盲班会是一个很好的方法。"
+ organize_literacy_idea: "组织扫盲"
+ organize_literacy_idea_desc: "组织扫盲"
  people_qualification_commitee: "基层民众委员会" 
  people_qualification_commitee_desc: "对于历史上所有曾存在于华夏大地上的政权来说，如何治理基层是个极为复杂又必须解决的问题。我们也不例外，但我们是共产党人，人民作主是不可缺少的一部分，这注定了我们得将人民群众纳入基层治理体系中。纯粹由人民组成的基层民众委员会不一定能够做到这一点，但是一定能保障人民当家作主。"
  democratic_commune: "民主的公社" 

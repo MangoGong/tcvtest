@@ -6,6 +6,7 @@ characters={
 			idea_token = PRC_zhou_enlai
 			allowed = {
 				original_tag = PRC
+				has_completed_focus = waving_our_flag
 			}
 			traits = {
 				silent_workhorse
