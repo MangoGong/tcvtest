@@ -1,0 +1,19 @@
+state={
+	id=1024
+	name="STATE_1024"
+	provinces={
+		7804 7819 1676 10646
+	}
+
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MON
+	}
+	manpower=1500
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	local_supplies=0.000
+}

@@ -1,0 +1,22 @@
+state = {
+	id = 1019
+	name = "STATE_1019"
+	manpower = 50,000
+	
+	state_category = pastoral
+
+	history = {
+		owner = MON
+		add_core_of = MON
+		buildings = {
+			infrastructure = 1
+		}
+	
+	}
+
+	provinces = {
+		13381 13379 12695 10669 7773
+	}
+
+	local_supplies = 0.0 
+}

@@ -1,0 +1,18 @@
+state={
+	id=1025
+	name="STATE_1025"
+	provinces={
+		4729 13399 12686 13396 7752
+	}
+
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = MON
+	}
+	manpower=45000
+	state_category=pastoral
+	local_supplies=0.000
+}
