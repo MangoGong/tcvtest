@@ -1,0 +1,28 @@
+state = {
+	id = 1033
+	name = "STATE_1033" # East Kazakhstan
+	
+	state_category = rural
+	
+	resources = {
+		chromium = 10 
+	}
+
+	history = {
+		owner = KAZ
+		add_core_of = KAZ
+
+
+		buildings = {
+			infrastructure = 1
+		}
+		
+	}
+
+	provinces = {
+		1749 1818 1864 4674 7890 10610 12421 12427 12564 13420 13421 13425 13433 13434
+	}
+	manpower = 429213
+	buildings_max_level_factor = 1.000
+
+}

@@ -1,6 +1,6 @@
 state = {
 	id = 588
-	name = "STATE_588" # Semipalatinsk
+	name = "STATE_588" # semey
 	
 	state_category = rural
 	
@@ -9,7 +9,7 @@ state = {
 	}
 
 	history = {
-		owner = SOV
+		owner = KAZ
 		add_core_of = KAZ
 		add_core_of = SOV
 
@@ -27,7 +27,7 @@ state = {
 	}
 
 	provinces = {
-		1287 1749 1818 1864 4661 4674 4867 7350 7890 10161 10218 10292 10584 10610 10653 12427 12564 12594 12635 13151 
+		1668 4867 7784 10218 10584 10653 12594 12635 13151 13419 13415 13405 13414 12662 13149
 	}
 	manpower = 429213
 	buildings_max_level_factor = 1.000

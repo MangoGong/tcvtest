@@ -1,0 +1,25 @@
+state = {
+	id = 1037
+	name = "STATE_1037" # Karagandy
+
+	history = {
+		owner = KAZ
+
+		add_core_of = KAZ
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces = {
+		1223 1239 1287 1402 4232 4250 4333 7332 7335 7405 7407 7425 10161 10179 10290 10292 12111 12152 13422 13427
+	}
+	manpower = 227016
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	local_supplies = 0.0 
+}
