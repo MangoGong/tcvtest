@@ -1,0 +1,31 @@
+state = {
+	id = 1039
+	name = "STATE_1039"
+
+	history = {
+	
+		owner = TMS
+		
+
+		
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		
+		add_core_of = SOV
+		add_core_of = TMS
+
+	}
+
+	provinces = {
+		756 1632 4482 4549 4958 5003 7924 9605 10414 10357 10742
+	}
+	manpower = 738375
+	buildings_max_level_factor = 1.000
+	state_category = pastoral
+
+	local_supplies = 4.0 
+	
+}
