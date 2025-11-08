@@ -6,9 +6,7 @@ state = {
 	
 		owner = TMS
 		
-		victory_points = {
-			1493 1
-		}
+
 		
 		buildings = {
 			infrastructure = 1
